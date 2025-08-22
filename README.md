@@ -12,7 +12,5 @@ classDiagram
         -String role 
         +deleteUser() 
     } 
-5 / 14
-buoi 03 mermaid-guide.md
     User <|-- Admin : Kế thừa
 ```
