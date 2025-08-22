@@ -1,8 +1,7 @@
  # Test Mermaid trên GitHub 
 ## Biểu đồ đầu tiên của tôi 
 ```mermaid 
-graph TD 
-    A[Bắt đầu] --> B[GitHub tự động hỗ trợ] 
-    B --> C[Không cần cài đặt] 
-    C --> D[Xem ngay kết quả] 
+sequenceDiagram 
+    Alice->>+John: Xin chào John 
+    John-->>-Alice: Chào Alice 
 ```
