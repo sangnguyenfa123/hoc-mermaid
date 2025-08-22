@@ -7,5 +7,11 @@ graph TD
     Validate{Kiểm tra} 
     Success[Thành công] 
     Error[Lỗi] 
-    End[Kết thúc] 
+    End[Kết thúc]
+    Start --> Input 
+    Input --> Validate 
+    Validate -->|Hợp lệ| Success 
+    Validate -->|Không hợp lệ| Error 
+    Success --> End 
+    Error --> Input 
 ```
